@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple WP Table of Content Block 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-26 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Codex\n"
+"X-Domain: simple-wp-toc\n"
+
+#: includes/core.php
+msgid "Display a table of contents generated from Heading blocks in the current post."
+msgstr ""
+
+#: includes/core.php
+#: src/block/edit.js
+#: src/plugin/TOCSideBar.js
+msgid "Table of Contents"
+msgstr ""
+
+#: src/block/edit.js
+msgid "This block renders a table of contents from included Heading blocks in this post."
+msgstr ""
+
+#: src/block/edit.js
+msgid "Add Heading blocks to this post to build the table of contents."
+msgstr ""

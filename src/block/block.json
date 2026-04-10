@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "simple-wp-toc/table-of-contents",
+	"version": "1.0.0",
+	"title": "Table of Contents",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Display a table of contents generated from Heading blocks in the current post.",
+	"textdomain": "simple-wp-toc",
+	"editorScript": "simple-wp-toc-editor",
+	"editorStyle": "simple-wp-toc-style",
+	"style": "simple-wp-toc-style",
+	"viewScript": "simple-wp-toc-view",
+	"supports": {
+		"html": false
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "samuelsena/simple-wp-toc",
+  "description": "A simple WordPress table of contents block for core Heading blocks.",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Samuel Sena",
+      "email": "samuelsena88@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "phpcompatibility/phpcompatibility-wp": "^2",
+    "roave/security-advisories": "dev-latest",
+    "wp-coding-standards/wpcs": "^3.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "lint:php": "phpcs --standard=.phpcs.xml.dist plugin.php includes uninstall.php",
+    "lint:php:fix": "phpcbf --standard=.phpcs.xml.dist plugin.php includes uninstall.php"
+  }
+}
