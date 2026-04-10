@@ -9,8 +9,7 @@
 	"description": "Display a table of contents generated from Heading blocks in the current post.",
 	"textdomain": "simple-wp-toc",
 	"editorScript": "simple-wp-toc-editor",
-	"editorStyle": "simple-wp-toc-style",
-	"style": "simple-wp-toc-style",
+	"style": "file:./style.css",
 	"viewScript": "simple-wp-toc-view",
 	"supports": {
 		"html": false

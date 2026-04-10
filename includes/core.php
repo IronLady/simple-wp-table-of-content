@@ -59,17 +59,6 @@ function register_block() {
 		SIMPLE_WP_TOC_PATH . 'languages'
 	);
 
-	wp_register_style(
-		'simple-wp-toc-style',
-		false,
-		[],
-		SIMPLE_WP_TOC_VERSION
-	);
-	wp_add_inline_style(
-		'simple-wp-toc-style',
-		get_block_styles()
-	);
-
 	wp_register_script(
 		'simple-wp-toc-view',
 		false,
@@ -92,19 +81,6 @@ function register_block() {
 			],
 		]
 	);
-}
-
-/**
- * Get inline styles for the block output.
- *
- * @return string
- */
-function get_block_styles() {
-	return '.simple-wp-toc__list{list-style:none;margin:0;padding-left:0;}' .
-		'.simple-wp-toc__list .simple-wp-toc__list{padding-left:0.75rem;}' .
-		'.simple-wp-toc__item{margin:0;}' .
-		'.simple-wp-toc__link{text-decoration:none;}' .
-		'.simple-wp-toc__title{margin:0 0 0.75rem;}';
 }
 
 /**
