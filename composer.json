@@ -23,7 +23,7 @@
     }
   },
   "scripts": {
-    "lint:php": "phpcs --standard=.phpcs.xml.dist plugin.php includes uninstall.php",
-    "lint:php:fix": "phpcbf --standard=.phpcs.xml.dist plugin.php includes uninstall.php"
+    "lint:php": "phpcs --standard=.phpcs.xml.dist simple-wp-toc.php includes uninstall.php",
+    "lint:php:fix": "phpcbf --standard=.phpcs.xml.dist simple-wp-toc.php includes uninstall.php"
   }
 }
