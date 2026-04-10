@@ -1,6 +1,6 @@
 {
   "name": "simple-wp-toc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "wp-scripts build",
     "format": "wp-scripts format",
